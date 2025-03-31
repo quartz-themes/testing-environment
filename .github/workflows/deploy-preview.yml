@@ -7,8 +7,8 @@ on:
       - v4
 
 env:
-  THEME: "tokyo-night"
-  BRANCH: "master"
+  THEME: "abyssal"
+  BRANCH: "compatibility"
  
 permissions:
   contents: write
