@@ -8,7 +8,7 @@ on:
 
 env:
   THEME: "agate"
-  BRANCH: "compatibility"
+  BRANCH: "master"
  
 permissions:
   contents: write
