@@ -7,7 +7,7 @@ on:
       - v4
 
 env:
-  THEME: "abyssal"
+  THEME: "agate"
   BRANCH: "compatibility"
  
 permissions:
