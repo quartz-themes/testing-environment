@@ -7,8 +7,8 @@ on:
       - v4
 
 env:
-  THEME: "agate"
-  BRANCH: "master"
+  THEME: "abate"
+  BRANCH: "search-component"
  
 permissions:
   contents: write
