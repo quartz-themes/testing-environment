@@ -7,7 +7,7 @@ on:
       - v4
 
 env:
-  THEME: "abate"
+  THEME: "aurora-twilight"
   BRANCH: "search-component"
  
 permissions:
