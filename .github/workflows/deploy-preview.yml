@@ -8,7 +8,7 @@ on:
 
 env:
   THEME: "aurora-twilight"
-  BRANCH: "search-component"
+  BRANCH: "master"
  
 permissions:
   contents: write
