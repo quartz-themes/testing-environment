@@ -1,4 +1,4 @@
-name: Deploy Quart Themes preview to GitHub Pages
+name: (WINDOWS) Deploy Quart Themes preview to GitHub Pages
  
 on:
   workflow_dispatch:
