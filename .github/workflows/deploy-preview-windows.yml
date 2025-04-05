@@ -2,9 +2,6 @@ name: Deploy Quart Themes preview to GitHub Pages
  
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - v4
 
 env:
   THEME: "aurora-twilight"
