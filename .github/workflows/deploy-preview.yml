@@ -8,7 +8,8 @@ on:
 
 env:
   THEME: "aurora-twilight"
-  BRANCH: "master"
+  BRANCH: "better-install-script"
+  FILE: "action"
  
 permissions:
   contents: write
@@ -41,7 +42,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
       - name: Fetch Quartz Theme
-        run: curl -s -S https://raw.githubusercontent.com/saberzero1/quartz-themes/$BRANCH/action.sh | bash -s -- $THEME
+        run: curl -s -S https://raw.githubusercontent.com/saberzero1/quartz-themes/$BRANCH/$FILE.sh | bash -s -- $THEME
       - name: Build Quartz Docs
         run: npx quartz build -d docs
       - name: Upload artifact
