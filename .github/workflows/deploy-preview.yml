@@ -6,7 +6,7 @@ on:
 env:
   THEME: "aurora-twilight"
   BRANCH: "better-install-script"
-  FILE: "action-2"
+  FILE: "action"
  
 permissions:
   contents: write
