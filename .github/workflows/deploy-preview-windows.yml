@@ -2,11 +2,6 @@ name: (WINDOWS) Deploy Quart Themes preview to GitHub Pages
  
 on:
   workflow_dispatch:
-
-env:
-  THEME: "aurora-twilight"
-  BRANCH: "better-install-script"
-  FILE: "action"
  
 permissions:
   contents: write
@@ -31,7 +26,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
       - name: Fetch Quartz Theme
-        run: curl -s -S https://raw.githubusercontent.com/saberzero1/quartz-themes/$BRANCH/$FILE.bat | bash -s -- $THEME
+        run: curl -s -S https://raw.githubusercontent.com/saberzero1/quartz-themes/better-install-script/action.bat | bash -s -- tokyo-night
       - name: Build Quartz Docs
         run: npx quartz build -d docs
       - name: Upload artifact
