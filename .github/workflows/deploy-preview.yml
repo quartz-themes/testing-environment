@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
 env:
-  THEME: "aurora-twilight"
-  BRANCH: "better-install-script"
+  THEME: "glass-robo"
+  BRANCH: "callouts"
   FILE: "action"
  
 permissions:
