@@ -45,7 +45,9 @@ jobs:
       - name: Fetch Quartz Theme
         uses: nick-fields/retry@v3
         with:
-          command: curl -s -S https://raw.githubusercontent.com/saberzero1/quartz-themes/callouts/action.sh | bash -s -- glass-robo
+          command: |
+            chmod +x install.sh
+            install.sh -- glass-robo
           timeout_minutes: 10
           max_attempts: 3
       - name: Build Quartz Docs
